@@ -1,0 +1,365 @@
+
+/*
+Colors: 
+	silver: #f5f5f5
+	blue #4d79ff
+	orange #e6bd77
+*/
+
+
+p{
+
+	font-family: "Corbel" ;	
+	font-size: 170%;
+}
+
+a{
+	color: black;
+
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	/*color:#e6bd77;*/
+	color:  #7acde7;
+}
+
+
+
+.iceland{
+	width: 100%; 
+	height: auto;
+
+}
+
+.png-over{
+	max-height: 40%;
+	max-width: 40%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 175px;
+
+}
+
+.contact-info{
+	margin-top: -70px;
+	margin-bottom: -20px;
+	max-height: 18%;
+	max-width: 18%;
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+
+	
+	
+
+}
+
+
+.container{ 
+	background-color: #f5f5f5; 
+	color: black;
+	/*margin-bottom: 1500;*/
+	
+}
+
+
+.side{
+	position: absolute;
+	top: 12%;
+	left:60%;
+	transform: translate(-50%, -50%); 	
+}
+
+.hi{
+	color: white;
+	background-color: black;
+
+}
+
+.center{
+	text-align: center;
+
+
+}
+
+.sub { 
+	color: black;
+	background-color: white;
+	margin-top: -15px; 	
+	font-weight: 400;
+	display: table; 
+	
+}
+ 
+
+.about_me_text{
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+body { 
+	position: relative;top: 50px; 
+	color: black; 
+	background-color: #f5f5f5; 
+	font-family: sans-serif;
+
+ }
+
+
+ .resumeHeader{
+ 	text-align: center;
+ 	padding-top: 10px; 
+ 
+ }
+
+ .contactHead{
+ 	color: black;
+ 	text-align: center; 
+ 	/*padding-top: 10px; */
+ 	text-decoration: underline;
+ 	text-decoration-color: ##591f7d ;
+ 	margin-bottom: -3px; 
+ 	
+ 
+
+ }
+
+
+ .contact{
+ 	/*background-color: #e6bd77; */
+ 	margin-bottom: -20px; 
+ 	margin-left: -10px; 
+ 	margin-right: -10px; 
+ 	color: black;
+
+ 	
+ }
+
+
+
+ .flex{
+ 	display: flex; 
+ }
+
+
+
+
+ .email{
+ 	text-align: left;
+ 	width: 33.33333%; 
+
+
+ }
+
+ .linked{
+ 	text-align: center;
+ 	width: 33.33333%; 
+ 	
+
+ }
+
+ .website{
+ 	text-align: right;
+ 	width: 33.333333%
+
+
+ }
+
+
+ .rightSide{
+ 	text-align: right;
+ 	width: 100%;
+ 	padding-right: 10%;
+ 	
+ 	
+ }
+
+ .leftSide{
+ 	text-align: left;
+ 	width: 20%;
+ 	padding-left: 10%;
+ }
+
+
+
+ .blackBack{
+ 	color: #f5f5f5;
+ 	background-color: black; 
+ 	padding-bottom:70px; 
+ 	margin-left: -10px; 
+ 	margin-right: -10px; 
+ 	padding-bottom: 100px; 
+ }
+
+ .education{
+ 	padding-top: 10px; 
+ 	font-size:150%;
+ 	text-decoration: underline;
+
+
+ }
+
+/*
+ .left{
+ 	padding-left: 40px;
+ }*/
+
+
+ .marg{
+ 	margin-left: 100px; 
+ 	margin-right: 100px; 
+ }
+
+ .resumeLeft{
+ 	margin-left: 10%; 
+ 	width: 33.333%; 
+ }
+
+
+
+
+ .resumeRight{
+ 	margin-left:10%; 
+ 	width: 35%; 
+
+ }
+
+
+ .projects{
+ 	padding-top: 10px; 
+ 	font-size:150%;
+ 	text-decoration: underline;
+
+ }
+
+
+ .miniHead{
+ 	margin-top: -10px;
+ 	color: #e6bd77;
+ 	font-size: 125%; 
+
+
+ }
+
+ a.resumeLink{
+ 	padding-top: 10px; 
+ 	color: white; 
+ 	text-align: center; 
+ 	
+
+ }
+
+ .resumeHeader{
+ 	text-align: center; 
+ }
+
+
+
+
+.box-pic{
+	width: 40%;
+	height: auto;
+
+
+
+}
+
+
+.miniHeadB{
+	margin-top: -10px;
+ 	color: #e6bd77;
+	font-size: 90%; 
+	font-weight: 600;
+	margin-bottom: -10px; 
+
+}
+
+
+
+ .skinny{
+ 	/*font-weight: 400; */
+ }
+
+
+ 
+
+ .otherP{
+ 	text-align: center;
+
+ }
+
+
+ .daydream{
+ 	color: #e6bd77;
+ 	text-align: left;
+ 	width: 33.333333%;
+
+
+ }
+
+ .topSpace{
+ 	padding-top: 30px; 
+
+ }
+
+ .lessTop{
+ 	margin-top: -25px; 
+ }
+
+ .design{
+ 	color: #e6bd77;
+ 	text-align: center;
+ 	width: 33.333333%;
+
+ }
+
+
+ .cards{
+ 	color: #e6bd77;
+ 	text-align: right;
+ 	width: 33.333333%;
+
+ }
+
+ .leftList{
+
+ }
+
+
+li{
+	margin:5px 0; 
+	font-size: 110%
+}
+
+ul{
+	margin-bottom: 40px; 
+}
+
+
+.blurb{
+	font-weight:300;
+	margin-bottom: -10px; 
+}
+
+
+
+.box{
+	display: inline-block;
+	border: 2px solid #f5f5f5; 
+	padding-left: 3px; 
+	padding-right: 3px; 
+	margin-right: 10px; 
+}
+
+a.white{
+	color: white;
+	text-decoration-color: white; 
+}
