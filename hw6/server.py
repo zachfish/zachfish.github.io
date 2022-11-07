@@ -26,7 +26,7 @@ def home():
     return render_template('index.html')
 
 
-@app.route('/predict',methods=['POST'])
+@app.route('/predict',methods=['GET','POST'])
 def predict():
     # data = request.get_json(force=True)
     # prediction = model.predict([[np.array(data['exp'])]])
@@ -34,10 +34,7 @@ def predict():
     # return jsonify(output)
     init_features = [float(x) for x in request.form.values()]
     final_features = [np.array(init_features)]
-
     prediction = model.predict(final_features) # making prediction
-
-
     return render_template('index.html', prediction_text='Predicted Class: {}'.format(prediction)) # rendering the predicted result
 
 if __name__ == '__main__':
